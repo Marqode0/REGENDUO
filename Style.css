@@ -1,0 +1,590 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+/* nav starts here */
+.link li a{
+    text-decoration: none;
+    padding: 20px;
+    color: rgb(34, 90, 34);
+    font-size: 18px;
+}
+
+.link li a:hover{
+    color: green;
+    text-decoration: underline;
+    font-size: 19px;
+}
+
+.link li{
+    display: inline;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 100px;
+}
+/* nav ends here */
+
+/* header starts here */
+.ex-img img{
+    height: 30px;
+    margin-right: 5px;
+}
+
+.ex-img{
+    display: flex;
+    align-items: center;
+}
+
+header{
+    display: flex;
+    /* align-items: center; */
+    justify-content: space-between;
+    margin: 50px 100px;
+}
+
+header h1{
+    width: 75%;
+    padding: 30px 0;
+    font-size: 60px;
+    font-family: Arial, sans-serif;
+    font-weight: bold;
+}
+
+header .point{
+    width: 98%;
+    font-size: 18px;
+}
+
+header .client-img{
+    width: 550px;
+    height: 450px;
+}
+
+.button-div{
+    margin-top: 25px;
+    /* margin-left: 40px; */
+}
+button{
+    padding: 13px 26px;
+    background-color: rgb(5, 26, 5);
+    color: white;
+    font-size: 16px;
+    border: none;
+}
+
+.button-div button, .btn-img{
+    display: flex;
+    align-items: center;
+}
+/* header ends here */
+
+article{
+    background-color: rgb(5, 26, 5);
+    display: flex;
+    padding: 55px 100px;
+    text-align: center;
+    color: white;
+}
+
+article h2{
+    width: 150%;
+    font-size: 30px;
+    padding-right: 230px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+article img{
+    padding-left: 100px;
+}
+
+article p{
+    width: 85%;
+    font-size: 16px;
+    padding-top: 10px;
+    line-height: 1.5;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* article ends here */
+
+section{
+    display: flex;
+    justify-content: space-between;
+    padding: 30px 100px;
+    align-items: center;
+}
+
+section h1{
+    width: 75%;
+    padding: 30px 0;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.section-second{
+    padding-right: 200px;
+}
+
+.section-second p{
+    width: 150%;
+    /* padding-bottom: 5px; */
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.main-but{
+    padding: 10px 10px;
+}
+
+
+.main-but, .but{
+    display: flex;
+    align-items: center;
+}
+
+.section-second .ooo{
+    margin-top: 20px;
+} 
+
+main{
+    padding: 40px 100px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-around;
+    background-color: whitesmoke;
+    gap: 20px;
+}
+
+.main-card{
+    padding: 20px 50px 40px 50px;
+    border-radius: 8px;
+    background-color: white;
+    border: 20px;
+    font-size: 18px;
+}
+
+.main-card .main-p{
+    padding-bottom: 15px;
+}
+
+.aside-div{
+    margin: 10px 30px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.aside-heading{
+    padding-left: 100px;
+}
+
+.aside-heading img{
+    padding-left: 80px;
+    margin: 10px 0;
+}
+
+.aside-div .doc-img{
+    height: 500px;
+    width: 600px;
+}
+
+.aside-input1 input{
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin: 20px 0;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+
+.aside-input2 input{
+    padding: 10px 10px;
+    font-size: 17px;
+    border-radius: 10px;
+    margin-right: 50px;
+}
+
+.aside-div textarea{
+    padding: 10px 10px 40px 10px;
+    width: 90%;
+    margin-top: 30px;
+    border-radius: 8px;
+    font-size: 17px;
+}
+
+.aside-div button{
+    margin-top: 30px;
+}
+
+figcaption{
+    background-color: rgb(5, 26, 5);
+    padding: 40px 20px;
+}
+
+figcaption h2, .fig-p{
+    color: white;
+}
+
+
+.fig-card{
+    background-color: white;
+    color: rgb(34, 90, 34);
+    padding: 30px 20px;
+    margin: 30px 0;
+    border-radius: 10px;
+}
+
+.fig-card h5{
+    font-size: 22px;
+    padding: 10px 0;
+}
+
+.fig-card p{
+    font-size: 16px;
+    width: 90%;
+    line-height: 1.5;
+}
+
+.fig-image{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.fig-img1{
+    width: 100px;
+    height: 100px;
+}
+
+.fig-img, .fig-img2{
+    display: flex;
+}
+
+.fig-img2{
+    width: 20px;
+    height: 25px;
+    padding-left: 130px;
+}
+/* fig-caption ends here */
+
+.figure-main{
+    text-align: center;
+}
+
+.figure-main img{
+    padding-left: 490px;
+}
+
+.figure-grid .iii{
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+}
+
+figure{
+    background-color: whitesmoke;
+    padding: 20px 0 20px 100px;
+}
+
+.figure-main p{
+    padding-top: 10px;
+    padding-bottom: 40px;
+    font-size: 18px;
+}
+
+.figure-card{
+    display: flex;
+    gap: 40px;
+    margin-right: 140px;
+}
+
+.figure-card h1{
+    width: 90%;
+    font-size: 40px;
+    padding: 15px 0;
+}
+
+.figure-card p{
+    width: 72%;
+    line-height: 1.5;
+    font-size: 18px;
+}
+
+.figure-text{
+    display: flex;
+}
+
+.figure-text h4{
+    color: rgb(28, 78, 28);
+    font-weight: bolder;
+}
+
+.figure-grid{
+    background-color: white;
+    border-radius: 10px;
+    border: 0.1px solid gray;
+}
+
+.text1{
+    padding: 15px 15px;
+}
+
+.figure-card button{
+    background-color: transparent;
+    color: rgb(22, 43, 22);
+}
+
+.bbb button, img{
+    display: flex;
+    align-items: center;
+    font-size: 18px;
+    font-weight: bolder;
+}
+/* figure ends here */
+
+.bim button, img{
+    display: flex;
+    align-items: center;
+}
+
+.bim{
+    margin-left: 600px;
+    margin-top: 25px;
+    margin-bottom: 35px;
+}
+/* footer starts here */
+
+footer{
+    background-color: rgb(5, 26, 5);
+    padding: 30px 150px 30px 50px;
+}
+
+.footer-card{
+    display: flex;
+    justify-content: space-between;
+}
+
+.foot img{
+    margin-bottom: 20px;
+}
+
+.foot p{
+    font-size: 18px;
+    padding-bottom: 10px;
+}
+
+.foot{
+    color: white;
+    list-style: none;
+}
+
+.foot h2{
+    padding-bottom: 20px;
+}
+
+.foot li{
+    padding-bottom: 10px;
+    font-size: 18px;
+}
+
+.foot li a{
+    text-decoration: none;
+    color: white;
+}
+
+.foot li a:hover{
+    color: black;
+}
+
+i{
+    color: white;
+    font-size: 30px;
+    margin-top: 10px;
+}
+
+/* media query */
+@media screen and (max-width:850px) {
+
+    body{
+        overflow-x: hidden;
+    }
+    
+    nav .link li{
+        display: none;
+    } 
+    
+    nav{
+        padding: 10px 0;
+    }
+
+    header{
+        padding: 0 10px;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    header .ex-img{
+        padding-top: 30px;
+    }
+
+    header h1{
+        width: 80%;
+        font-size: 40px;
+    }
+
+    header .point{
+        width: 100%;
+    }
+
+    header .client-img{
+        width: 370px;
+        height: 320px;
+        margin-top: 10px;
+    }
+    /* header ends here */
+
+    article{
+        flex-direction: column;
+        margin: 40px 0;
+        padding: 40px 0;
+        padding-left: 50px;
+    }
+
+    article h2{
+        width: 200%;
+        padding-right: 380px;
+    }
+
+    article .article-card p{
+        padding-bottom: 40px;
+        color: whitesmoke;
+    }
+
+    section{
+        flex-direction: column;
+        padding: 0 9px;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+
+    section h1{
+        width: 90%;
+        font-size: 40px;
+    }
+
+    main{
+        grid-template-columns: 1fr;
+        padding: 10px 10px;
+    }
+
+    .main-card{
+        padding: 20px 10px 30px 20px;
+        border-radius: 10px;
+    }
+
+    .main-card .main-p{
+        width: 70%;
+    }
+
+    .aside-heading h1{
+        width: 120%;
+        padding-left: 0;
+        padding-right: 180px;
+        text-align: center;
+    }
+
+    .aside-heading img{
+        padding-left: 20px;
+    }
+
+    .aside-div{
+        padding: 0;
+        margin: 0;
+        flex-direction: column;
+    }
+
+    .aside-div .doc-img{
+        width: 370px;
+        height: 320px;
+        margin: 20px 0;
+    }
+
+    .aside-input2 .date{
+        margin-top: 20px;
+    }
+
+    textarea{
+        width: 0;
+    }
+    
+    .top{
+        margin: 0 10px;
+    }
+
+    .fig-image{
+        flex-direction: column;
+    }
+
+    .fig-img2{
+       margin-right: 120px;
+    }
+
+    figcaption{
+        padding: 20px 0px;
+        text-align: center;
+    }
+
+    figcaption .fig-p{
+        width: 120%;
+        padding-right: 70px;
+        padding-top: 5px;
+    }
+
+    .fig-card{
+        margin-bottom: 0;
+    }
+    /* figcaption ends here */
+
+    .figure-card{
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+    }
+
+    figure{
+        padding: 0;
+        margin: 0 15px;
+    }
+
+    .figure-grid .iii{
+        width: 100%;
+        padding: 0;
+    }
+
+    .figure-main img{
+    padding-left: 100px;
+}
+
+.footer-card{
+    flex-direction: column;
+    text-align: center;
+    padding-left: 55px;
+    gap: 50px;
+}
+
+
+i{
+    margin-top: 10px;
+}
+
+}
