@@ -168,14 +168,20 @@ main{
 
 .main-card{
     padding: 20px 50px 40px 50px;
-    border-radius: 8px;
     background-color: white;
-    border: 20px;
     font-size: 18px;
+    border: 0.5px solid gray;
+    border-radius: 8px;
+}
+
+.main-card:hover{
+    transition: ease-in 0.5s;
+    transform: scale(1.02);
 }
 
 .main-card .main-p{
     padding-bottom: 15px;
+    border: 20px;
 }
 
 .aside-div{
@@ -239,9 +245,10 @@ figcaption h2, .fig-p{
 .fig-card{
     background-color: white;
     color: rgb(34, 90, 34);
-    padding: 30px 20px;
-    margin: 30px 0;
-    border-radius: 10px;
+    padding: 10px 10px;
+    margin: 30px 40px;
+    border-radius: 20px;
+    padding-right: 0;
 }
 
 .fig-card h5{
@@ -251,14 +258,14 @@ figcaption h2, .fig-p{
 
 .fig-card p{
     font-size: 16px;
-    width: 90%;
+    width: 100%;
     line-height: 1.5;
 }
 
 .fig-image{
     display: flex;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 
 .fig-img1{
@@ -272,8 +279,8 @@ figcaption h2, .fig-p{
 
 .fig-img2{
     width: 20px;
-    height: 25px;
-    padding-left: 130px;
+    height: 22px;
+    padding-left: 100px;
 }
 /* fig-caption ends here */
 
@@ -514,6 +521,14 @@ i{
         margin: 20px 0;
     }
 
+    .aside-input1 input{
+        width: 100%;
+    }
+    
+    .aside-input2 input{
+        width: 100%;
+        margin-bottom: 10px;
+    }
     .aside-input2 .date{
         margin-top: 20px;
     }
@@ -556,8 +571,17 @@ i{
         padding: 0;
     }
 
+    .figure-grid{
+        border: 0.1px solid gray;
+    }
+
+    .figure-grid:hover{
+        transition: ease-out 0.5s;
+        transform: scale(1.02);
+    }
+
     figure{
-        padding: 0;
+        padding: 20px 10px 20px 10px;
         margin: 0 15px;
     }
 
